@@ -1,0 +1,253 @@
+{
+   "categories": [
+      {
+         "id": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "name": "Jewelery",
+         "createdAt": 1659071392297,
+         "updatedAt": 1659071392297
+      },
+      {
+         "id": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "name": "Garden",
+         "createdAt": 1659071392297,
+         "updatedAt": 1659071392297
+      },
+      {
+         "id": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "name": "Movies",
+         "createdAt": 1659071392298,
+         "updatedAt": 1659071392298
+      },
+      {
+         "id": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "name": "Kids",
+         "createdAt": 1659071392298,
+         "updatedAt": 1659071392298
+      }
+   ],
+   "products": [
+      {
+         "categoryId": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "id": "252510a4-7298-427c-96f3-5d6794fd0e2a",
+         "name": "Tasty Frozen Pants",
+         "color": "cyan",
+         "price": 804,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392300,
+         "updatedAt": 1659071392300,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "id": "08ca47d4-4b0d-4334-bb31-c1b9efb670cb",
+         "name": "Practical Granite Bacon",
+         "color": "olive",
+         "price": 538,
+         "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+         "createdAt": 1659071392300,
+         "updatedAt": 1659071392300,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "id": "35a3daaa-d9e3-46bf-b158-9fbdba155d34",
+         "name": "Handcrafted Plastic Chips",
+         "color": "teal",
+         "price": 54,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392301,
+         "updatedAt": 1659071392301,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "id": "cbc7873f-e542-42e0-a410-f35f00d841db",
+         "name": "Gorgeous Granite Tuna",
+         "color": "pink",
+         "price": 12,
+         "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+         "createdAt": 1659071392301,
+         "updatedAt": 1659071392301,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "997ae28b-f9dc-4abb-bdf4-8ff416ff19bc",
+         "id": "a0423f3a-7970-42b6-b95d-43ba0337efec",
+         "name": "Incredible Plastic Pizza",
+         "color": "black",
+         "price": 600,
+         "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+         "createdAt": 1659071392302,
+         "updatedAt": 1659071392302,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "id": "22ead81a-b010-4dcc-88d4-f5704a96d6a9",
+         "name": "Awesome Fresh Car",
+         "color": "silver",
+         "price": 625,
+         "description": "The Football Is Good For Training And Recreational Purposes",
+         "createdAt": 1659071392307,
+         "updatedAt": 1659071392307,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "id": "dc5126a7-d3d2-4877-a571-dc2390d4c9b2",
+         "name": "Ergonomic Frozen Chicken",
+         "color": "green",
+         "price": 365,
+         "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+         "createdAt": 1659071392307,
+         "updatedAt": 1659071392307,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "id": "eddf3662-2123-4814-99f5-fd57db0b5433",
+         "name": "Intelligent Soft Ball",
+         "color": "sky blue",
+         "price": 938,
+         "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+         "createdAt": 1659071392308,
+         "updatedAt": 1659071392308,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "id": "82731ff2-328e-4886-932a-41d774097ae5",
+         "name": "Refined Cotton Cheese",
+         "color": "teal",
+         "price": 784,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392309,
+         "updatedAt": 1659071392309,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "124e21bf-91c7-4bc7-a80e-a99c9be2faec",
+         "id": "3e2c3a2d-fd7a-49ee-8304-4073fccbab7c",
+         "name": "Licensed Metal Mouse",
+         "color": "indigo",
+         "price": 198,
+         "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+         "createdAt": 1659071392310,
+         "updatedAt": 1659071392310,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "id": "0613c533-678e-4c8d-8ae3-2ee332161296",
+         "name": "Practical Granite Mouse",
+         "color": "mint green",
+         "price": 575,
+         "description": "The Football Is Good For Training And Recreational Purposes",
+         "createdAt": 1659071392310,
+         "updatedAt": 1659071392310,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "id": "00fdb3c0-3590-4e66-9344-1d018f547f53",
+         "name": "Fantastic Rubber Chicken",
+         "color": "green",
+         "price": 408,
+         "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+         "createdAt": 1659071392311,
+         "updatedAt": 1659071392311,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "id": "2824c81d-b90f-493b-853c-86120c0b2be7",
+         "name": "Tasty Granite Mouse",
+         "color": "maroon",
+         "price": 410,
+         "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+         "createdAt": 1659071392311,
+         "updatedAt": 1659071392311,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "id": "17bd762a-7b9f-419e-aa07-9e2a005fa041",
+         "name": "Unbranded Soft Chair",
+         "color": "magenta",
+         "price": 66,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392312,
+         "updatedAt": 1659071392312,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "b372cb3a-9078-4632-90de-6a1267a7096e",
+         "id": "9b930713-c5ad-4cf9-a8e0-0b1d21692a1f",
+         "name": "Gorgeous Frozen Pizza",
+         "color": "orchid",
+         "price": 283,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392312,
+         "updatedAt": 1659071392312,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "id": "93eb6579-b107-46bc-9e16-d0fdc7c61e58",
+         "name": "Small Metal Pizza",
+         "color": "indigo",
+         "price": 873,
+         "description": "The Football Is Good For Training And Recreational Purposes",
+         "createdAt": 1659071392313,
+         "updatedAt": 1659071392313,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "id": "b7e88755-fc38-4ee8-85ca-2b15970584d3",
+         "name": "Licensed Metal Hat",
+         "color": "orchid",
+         "price": 224,
+         "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+         "createdAt": 1659071392314,
+         "updatedAt": 1659071392314,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "id": "6c602208-96b5-4521-934a-c69481a442b2",
+         "name": "Practical Metal Ball",
+         "color": "lime",
+         "price": 759,
+         "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+         "createdAt": 1659071392316,
+         "updatedAt": 1659071392316,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "id": "7ba95e36-0361-4e8c-a2e5-55ab58e359c7",
+         "name": "Unbranded Steel Keyboard",
+         "color": "black",
+         "price": 721,
+         "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+         "createdAt": 1659071392317,
+         "updatedAt": 1659071392317,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      },
+      {
+         "categoryId": "9b8bfe93-4970-4157-83fe-6bc7cdf8c128",
+         "id": "3ac97b56-bdf0-458c-bcaf-eb0594b21726",
+         "name": "Rustic Frozen Chips",
+         "color": "ivory",
+         "price": 246,
+         "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+         "createdAt": 1659071392318,
+         "updatedAt": 1659071392318,
+         "thumbnailUrl": "http://placeimg.com/400/400"
+      }
+   ],
+   "profile": {
+      "name": "Po"
+   }
+}

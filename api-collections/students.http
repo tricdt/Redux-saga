@@ -1,0 +1,39 @@
+@baseUrl = http://localhost:5000/api
+
+#@name getAllStudents
+GET {{baseUrl}}/students?_page=1&_limit=10&
+
+###
+#@name getStudentById
+GET {{baseUrl}}/students/2042156d-cb45-4d4e-97c9-6cfebd23d02d
+
+###
+#@name addNewStudent
+POST {{baseUrl}}/students
+Content-Type: application/json
+
+{
+
+   "name": "Kirk Powlowski Sr.new",
+   "age": 73,
+   "mark": 5.8,
+   "gender": "Male",
+   "createdAt": 1659083588752,
+   "updatedAt": 1659083588752,
+   "city": "hue"
+}
+
+###
+
+#@name updateStudent
+PATCH {{baseUrl}}/students/YiMHueU
+Content-Type: application/json
+
+{
+   "name": "Kirk Powlowski Sr update"
+}
+
+###
+
+#@name deleteStudent
+DELETE {{baseUrl}}/students/YiMHueU

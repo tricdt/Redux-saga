@@ -1,15 +1,38 @@
+import { CssBaseline } from '@mui/material';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { Provider } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 import App from './App';
+import { store } from './app/store';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+import CustomRouter from './utils/CustomRouter';
+import customHistory from './utils/history';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <CustomRouter history={customHistory}>
+        <CssBaseline />
+        <App />
+      </CustomRouter>
+      <ToastContainer
+        position='top-right'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+    </Provider>
   </React.StrictMode>
 );
 

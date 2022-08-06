@@ -1,25 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Button } from '@mui/material';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import { useAppDispatch } from './app/hooks';
+import { NotFound, PrivateRoute } from './components/common';
+import AdminLayout from './components/Layout/Admin';
+import { authActions } from './features/auth/authSlice';
+import LoginPage from './features/auth/pages/LoginPage';
 function App() {
+  const dispatch = useAppDispatch();
+  // useEffect(() => {
+  //   cityApi.getAll().then((response) => console.log(response));
+  // }, []);
+  // useEffect(() => {
+  //   studentApi.getAll({
+  //     _page: 1,
+  //     _limit: 5,
+  //     _sort: '',
+  //     _order: 'asc'
+  //   }).then((response) => console.log(response));
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Routes>
+        <Route path='login' element={<LoginPage />} />
+        <Route path='admin/*'
+          element={
+            <PrivateRoute redirectTo='/login'>
+              <AdminLayout />
+            </PrivateRoute>
+          }
+        />
+        <Route path='/*' element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 

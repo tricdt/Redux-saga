@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@hookform/resolvers": "^2.9.7",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/styles": "^5.9.2",
+    "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,17 +18,31 @@
     "@types/node": "^16.11.46",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "axios": "^0.27.2",
+    "connected-react-router": "^6.9.3",
+    "faker": "^5.5.0",
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.7",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.3.5",
     "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server -d 500 -p 5000 --watch db.json",
+    "generate-data": "node generate-data.js"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +61,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "@types/uuid": "^8.3.4"
   }
 }
